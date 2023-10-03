@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/image1.webp');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #999c93c5;
+    border: 2px solid #999c93;
+    color: #d2cbcc;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    height: 250px;
+    background-color: #e8e1da;
+    color: #696d6b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 14%, 100% 81%, 70% 100%, 30% 100%, 0 84%, 0 17%);
+            margin-top: -5rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/image2.webp');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5rem;
+    margin-bottom: -3rem;
+}
+
+.packaging-image__text a {
+    background-color: #82604ba2;
+    border: 2px solid #2a1e18;
+    color: #576454;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a:hover{
+    transform: scale(1.2);
+} 
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/image3.webp');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2.9rem;
+}
+
+.packaging-text {
+    height: 250px;
+    background-color: #ae9989;
+    color: #352a21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 14%, 100% 81%, 70% 100%, 30% 100%, 0 84%, 0 17%);
+}
+
+.packaging-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    border-bottom: 0.2rem solid rgb(42, 30, 24);
+    color: #cdccd1;
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    padding: 1rem;
+    transition: all 0.3s;
+}
+
+
+.btn:hover{
+    background-color: #c3998a74;
+    box-shadow: 0 0.5rem 2rem rgb(0,0,0,0.15);
+    transform: translateY(-5px);
+}
+
+.footer{
+    background-color: #a79580;
+    height: 200px;
+    text-align: center;
+    color: rgb(71, 71, 55);
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color:#dad5cc;
+    text-decoration: none;
+}
+
+.footer ul li:hover{
+    transform: scale(1.2);
+} 
